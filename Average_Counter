@@ -1,0 +1,30 @@
+name = (input("What's your name: "))
+
+OOP = float(input(f"whats your grade in OOP: "))
+E_COMMERCE = float(input(f"whats your grade in E_Commerce: "))
+NETWORKING = float(input(f"whats your grade in Networking 2: "))
+DBASE = float(input(f"whats your grade in Database Management Systems 1: "))
+VGD = float(input(f"whats your grade in Visual Graphic Design: "))
+PE = float(input(f"whats your grade in PE 4: "))
+NSTP = float(input(f"whats your grade in NSTP 2: "))
+
+average = (OOP + E_COMMERCE + NETWORKING + DBASE + VGD + PE + NSTP) / 7
+
+if average <= 3.00:
+    result = "Passed"
+else:
+    result = "Failed"
+
+print(f"\n--- Details ---")
+print(f"Name: {name}")
+print(f"OOP: {OOP}")
+print(f"DBASE: {DBASE}")
+print(f"VGD: {VGD}")
+print(f"PE: {PE}")
+print(f"NSTP: {NSTP}")
+print(f"Average: {average:.2f}")
+print(f"Result: {result}")
+
+
+
+
